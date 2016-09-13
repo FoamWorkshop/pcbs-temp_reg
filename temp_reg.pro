@@ -1,4 +1,4 @@
-update=Fri 09 Sep 2016 06:21:42 AM CEST
+update=Tue 13 Sep 2016 04:44:08 PM CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -71,3 +71,7 @@ LibName39=MCP4822-E_MS
 LibName40=power_usr
 LibName41=NE555P
 LibName42=buzzer
+LibName43=w_analog
+LibName44=w_device
+LibName45=display_lcd
+LibName46=vref
