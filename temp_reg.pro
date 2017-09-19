@@ -1,4 +1,4 @@
-update=Fri 10 Feb 2017 06:34:53 AM CET
+update=Thu 27 Jul 2017 05:07:40 PM CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -75,3 +75,4 @@ LibName43=w_analog
 LibName44=w_device
 LibName45=display_lcd
 LibName46=vref
+LibName47=MAX4210
