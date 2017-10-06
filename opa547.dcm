@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP OPA547
+D power opamp
+K Low-Offset OPAMP
+F http://cdn-reichelt.de/documents/datenblatt/A200/OP07%23AD.pdf
+$ENDCMP
+#
+#End Doc Library

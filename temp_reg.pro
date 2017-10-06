@@ -1,4 +1,4 @@
-update=Thu 27 Jul 2017 05:07:40 PM CEST
+update=Mon 02 Oct 2017 05:19:59 PM CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=../99.kicad_libs
+LibDir=../99.kicad_libs;../temp_reg;../temp_reg
 [eeschema/libraries]
 LibName1=temp_reg-rescue
 LibName2=power
@@ -76,3 +76,5 @@ LibName44=w_device
 LibName45=display_lcd
 LibName46=vref
 LibName47=MAX4210
+LibName48=opa547
+LibName49=7660
