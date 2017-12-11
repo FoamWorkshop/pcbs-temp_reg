@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MAX7480
+D Voltage reference
+F maxim\MAX872-MAX874.pdf
+$ENDCMP
+#
+#End Doc Library
