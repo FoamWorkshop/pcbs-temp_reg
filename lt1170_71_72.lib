@@ -1,0 +1,23 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# lt1172
+#
+DEF lt1172 U 0 40 Y Y 1 F N
+F0 "U" -50 0 50 H V L CNN
+F1 "lt1172" -150 -100 50 H V L CNN
+F2 "SOIC127P600X175-8N" 700 -550 50 H I L CNN
+F3 "Single Channel SPI Serial Interface 2.7 V 12-Bit A/D Converter SMT - SOIC-8" -50 -750 50 H I L CNN
+F4 "Good" 100 -750 50 H I L CNN "Availability"
+ALIAS lt1170 lt1171
+DRAW
+X VC 1 150 -500 200 U 40 40 0 0 I
+X FB 2 500 -150 200 L 40 40 0 0 N
+X GND 3 -150 -500 200 U 40 40 0 0 I
+X Vsw 4 500 150 200 L 40 40 0 0 N
+X Vin 5 0 500 200 D 40 40 1 0 I
+S -300 300 300 -300 0 1 0 N
+ENDDRAW
+ENDDEF
+#
+#End Library
