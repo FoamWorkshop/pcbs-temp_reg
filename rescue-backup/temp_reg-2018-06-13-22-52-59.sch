@@ -1,6 +1,57 @@
-EESchema Schematic File Version 4
+EESchema Schematic File Version 2
+LIBS:temp_reg-rescue
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:switch-enc
+LIBS:EL817C
+LIBS:dips-s
+LIBS:attiny
+LIBS:borniers
+LIBS:lm339
+LIBS:uln2003
+LIBS:MCP3201-CI_SN
+LIBS:MCP4822-E_MS
+LIBS:power_usr
+LIBS:NE555P
+LIBS:buzzer
+LIBS:w_analog
+LIBS:w_device
+LIBS:display_lcd
+LIBS:vref
+LIBS:MAX4210
+LIBS:opa547
+LIBS:7660
+LIBS:lt1170_71_72
+LIBS:lt2940
 LIBS:temp_reg-cache
-EELAYER 26 0
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -15,29 +66,29 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L temp_reg-rescue:C_Small 100n3
+L C_Small 100n3
 U 1 1 57CFAC69
 P 2650 5275
 F 0 "100n3" H 2660 5345 50  0000 L CNN
 F 1 "C_Small" H 2660 5195 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm" H 2650 5275 50  0001 C CNN
+F 2 "Capacitors_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 2650 5275 50  0001 C CNN
 F 3 "" H 2650 5275 50  0000 C CNN
 	1    2650 5275
 	1    0    0    -1  
 $EndComp
 $Comp
-L temp_reg-rescue:C_Small 100n2
+L C_Small 100n2
 U 1 1 57CFACD1
 P 1850 5275
 F 0 "100n2" H 1860 5345 50  0000 L CNN
 F 1 "C_Small" H 1860 5195 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm" H 1850 5275 50  0001 C CNN
+F 2 "Capacitors_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 1850 5275 50  0001 C CNN
 F 3 "" H 1850 5275 50  0000 C CNN
 	1    1850 5275
 	1    0    0    -1  
 $EndComp
 $Comp
-L temp_reg-rescue:GNDPWR #PWR01
+L GNDPWR #PWR01
 U 1 1 58CDC94F
 P 875 5475
 F 0 "#PWR01" H 875 5275 50  0001 C CNN
@@ -48,7 +99,7 @@ F 3 "" H 875 5425 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L temp_reg-rescue:PWR_FLAG #FLG02
+L PWR_FLAG #FLG02
 U 1 1 58CE1923
 P 1275 5075
 F 0 "#FLG02" H 1275 5150 50  0001 C CNN
@@ -59,7 +110,7 @@ F 3 "" H 1275 5075 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L temp_reg-rescue:PWR_FLAG #FLG03
+L PWR_FLAG #FLG03
 U 1 1 58CE1A9F
 P 1275 5475
 F 0 "#FLG03" H 1275 5550 50  0001 C CNN
@@ -70,18 +121,18 @@ F 3 "" H 1275 5475 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L temp_reg-rescue:R R5
+L R R5
 U 1 1 5968516E
 P 5425 3350
 F 0 "R5" V 5505 3350 50  0000 C CNN
 F 1 "R" V 5425 3350 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_Power_L25.0mm_W9.0mm_P27.94mm" V 5355 3350 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_Power_L20.0mm_W6.4mm_P25.40mm" V 5355 3350 50  0001 C CNN
 F 3 "" H 5425 3350 50  0001 C CNN
 	1    5425 3350
 	0    1    -1   0   
 $EndComp
 $Comp
-L temp_reg-rescue:GNDPWR #PWR04
+L GNDPWR #PWR04
 U 1 1 596943D8
 P 5425 4350
 F 0 "#PWR04" H 5425 4150 50  0001 C CNN
@@ -92,40 +143,40 @@ F 3 "" H 5425 4300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L temp_reg-rescue:CP1_Small 47u1
+L CP1_Small 47u1
 U 1 1 597AC6FA
 P 7750 1675
 F 0 "47u1" H 7760 1745 50  0000 L CNN
 F 1 "CP1_Small" H 7760 1595 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 7750 1675 50  0001 C CNN
+F 2 "Capacitors_THT:CP_Radial_D5.0mm_P2.50mm" H 7750 1675 50  0001 C CNN
 F 3 "" H 7750 1675 50  0000 C CNN
 	1    7750 1675
 	0    1    -1   0   
 $EndComp
 $Comp
-L temp_reg-rescue:C_Small 100n1
+L C_Small 100n1
 U 1 1 597ACEF4
 P 7750 1825
 F 0 "100n1" H 7760 1895 50  0000 L CNN
 F 1 "C_Small" H 7760 1745 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm" H 7750 1825 50  0001 C CNN
+F 2 "Capacitors_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 7750 1825 50  0001 C CNN
 F 3 "" H 7750 1825 50  0000 C CNN
 	1    7750 1825
 	0    1    -1   0   
 $EndComp
 $Comp
-L temp_reg-rescue:R R10
+L R R10
 U 1 1 59C049AF
 P 5825 3925
 F 0 "R10" V 5905 3925 50  0000 C CNN
 F 1 "R" V 5825 3925 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5755 3925 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5755 3925 50  0001 C CNN
 F 3 "" H 5825 3925 50  0001 C CNN
 	1    5825 3925
 	0    1    1    0   
 $EndComp
 $Comp
-L temp_reg-rescue:GNDPWR #PWR05
+L GNDPWR #PWR05
 U 1 1 59C1B65E
 P 6250 4350
 F 0 "#PWR05" H 6250 4150 50  0001 C CNN
@@ -136,29 +187,29 @@ F 3 "" H 6250 4300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L temp_reg-rescue:R R3
+L R R3
 U 1 1 59C27F37
 P 5000 2275
 F 0 "R3" V 4925 2275 50  0000 C CNN
 F 1 "200k" V 5000 2275 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4930 2275 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4930 2275 50  0001 C CNN
 F 3 "" H 5000 2275 50  0001 C CNN
 	1    5000 2275
 	1    0    0    -1  
 $EndComp
 $Comp
-L temp_reg-rescue:OPA547-RESCUE-temp_reg-RESCUE-temp_reg U1
+L OPA547-RESCUE-temp_reg-RESCUE-temp_reg U1
 U 1 1 59CDE209
 P 5000 1775
 F 0 "U1" H 5050 2025 50  0000 L CNN
 F 1 "OPA547" H 5050 1925 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-220-7_P2.54x3.7mm_StaggerEven_Lead3.8mm_Vertical" H 5050 1825 50  0001 C CNN
+F 2 "TO_SOT_Packages_THT:TO-220-7_Vertical_StaggeredType2" H 5050 1825 50  0001 C CNN
 F 3 "" H 5050 1925 50  0001 C CNN
 	1    5000 1775
 	1    0    0    -1  
 $EndComp
 $Comp
-L temp_reg-rescue:+48V #PWR06
+L +48V #PWR06
 U 1 1 59D2EADF
 P 4900 700
 F 0 "#PWR06" H 4900 550 50  0001 C CNN
@@ -169,7 +220,7 @@ F 3 "" H 4900 700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L temp_reg-rescue:GNDPWR #PWR07
+L GNDPWR #PWR07
 U 1 1 59DC0C60
 P 7600 1475
 F 0 "#PWR07" H 7600 1275 50  0001 C CNN
@@ -180,7 +231,7 @@ F 3 "" H 7600 1425 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L temp_reg-rescue:GNDPWR #PWR08
+L GNDPWR #PWR08
 U 1 1 59DC8047
 P 10250 5700
 F 0 "#PWR08" H 10250 5500 50  0001 C CNN
@@ -191,7 +242,7 @@ F 3 "" H 10250 5650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L temp_reg-rescue:+48V #PWR09
+L +48V #PWR09
 U 1 1 59DCBF2C
 P 10250 5300
 F 0 "#PWR09" H 10250 5150 50  0001 C CNN
@@ -202,7 +253,7 @@ F 3 "" H 10250 5300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L temp_reg-rescue:GNDPWR #PWR010
+L GNDPWR #PWR010
 U 1 1 59DD0B2C
 P 2900 5475
 F 0 "#PWR010" H 2900 5275 50  0001 C CNN
@@ -213,18 +264,18 @@ F 3 "" H 2900 5425 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L temp_reg-rescue:CONN_2 P11
+L CONN_2 P11
 U 1 1 59DC8274
 P 9425 5475
 F 0 "P11" V 9375 5475 40  0000 C CNN
 F 1 "CONN_2" V 9475 5475 40  0000 C CNN
-F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 9425 5475 60  0001 C CNN
+F 2 "borniers:bornier2_V" H 9425 5475 60  0001 C CNN
 F 3 "" H 9425 5475 60  0001 C CNN
 	1    9425 5475
 	-1   0    0    1   
 $EndComp
 $Comp
-L temp_reg-rescue:PWR_FLAG #FLG011
+L PWR_FLAG #FLG011
 U 1 1 59DC8280
 P 9800 5350
 F 0 "#FLG011" H 9800 5425 50  0001 C CNN
@@ -235,7 +286,7 @@ F 3 "" H 9800 5350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L temp_reg-rescue:PWR_FLAG #FLG012
+L PWR_FLAG #FLG012
 U 1 1 59DC8286
 P 9800 5600
 F 0 "#FLG012" H 9800 5675 50  0001 C CNN
@@ -246,117 +297,117 @@ F 3 "" H 9800 5600 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L temp_reg-rescue:CONN_2 P13
+L CONN_2 P13
 U 1 1 59DCF1CD
 P 5025 4100
 F 0 "P13" V 4975 4100 40  0000 C CNN
 F 1 "CONN_2" V 5075 4100 40  0000 C CNN
-F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 5025 4100 60  0001 C CNN
+F 2 "borniers:bornier2_V" H 5025 4100 60  0001 C CNN
 F 3 "" H 5025 4100 60  0001 C CNN
 	1    5025 4100
 	-1   0    0    1   
 $EndComp
 $Comp
-L temp_reg-rescue:R R6
+L R R6
 U 1 1 59E779CA
 P 5425 3450
 F 0 "R6" V 5505 3450 50  0000 C CNN
 F 1 "R" V 5425 3450 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_Power_L25.0mm_W9.0mm_P27.94mm" V 5355 3450 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_Power_L20.0mm_W6.4mm_P25.40mm" V 5355 3450 50  0001 C CNN
 F 3 "" H 5425 3450 50  0001 C CNN
 	1    5425 3450
 	0    1    1    0   
 $EndComp
 $Comp
-L temp_reg-rescue:R R7
+L R R7
 U 1 1 59E77A64
 P 5425 3550
 F 0 "R7" V 5505 3550 50  0000 C CNN
 F 1 "R" V 5425 3550 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_Power_L25.0mm_W9.0mm_P27.94mm" V 5355 3550 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_Power_L20.0mm_W6.4mm_P25.40mm" V 5355 3550 50  0001 C CNN
 F 3 "" H 5425 3550 50  0001 C CNN
 	1    5425 3550
 	0    1    1    0   
 $EndComp
 $Comp
-L temp_reg-rescue:CP C2
+L CP C2
 U 1 1 59CD7B88
 P 1275 5275
 F 0 "C2" H 1300 5375 50  0000 L CNN
 F 1 "CP" H 1300 5175 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 1313 5125 50  0001 C CNN
+F 2 "Capacitors_THT:CP_Radial_D7.5mm_P2.50mm" H 1313 5125 50  0001 C CNN
 F 3 "" H 1275 5275 50  0001 C CNN
 	1    1275 5275
 	1    0    0    -1  
 $EndComp
 $Comp
-L temp_reg-rescue:CP C1
+L CP C1
 U 1 1 59E98B21
 P 10150 5500
 F 0 "C1" H 10175 5600 50  0000 L CNN
 F 1 "CP" H 10175 5400 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 10188 5350 50  0001 C CNN
+F 2 "Capacitors_THT:CP_Radial_D7.5mm_P2.50mm" H 10188 5350 50  0001 C CNN
 F 3 "" H 10150 5500 50  0001 C CNN
 	1    10150 5500
 	1    0    0    -1  
 $EndComp
 $Comp
-L temp_reg-rescue:CONN_01X01 P6
+L CONN_01X01 P6
 U 1 1 5A1C6015
 P 8075 5525
 F 0 "P6" H 8075 5625 50  0000 C CNN
 F 1 "CONN_01X01" V 8175 5525 50  0000 C CNN
-F 2 "MountingHole:MountingHole_3.5mm" H 8075 5525 50  0001 C CNN
+F 2 "Mounting_Holes:MountingHole_3.5mm" H 8075 5525 50  0001 C CNN
 F 3 "" H 8075 5525 50  0001 C CNN
 	1    8075 5525
 	1    0    0    -1  
 $EndComp
 $Comp
-L temp_reg-rescue:CONN_01X01 P7
+L CONN_01X01 P7
 U 1 1 5A1C612E
 P 8075 5700
 F 0 "P7" H 8075 5800 50  0000 C CNN
 F 1 "CONN_01X01" V 8175 5700 50  0000 C CNN
-F 2 "MountingHole:MountingHole_3.5mm" H 8075 5700 50  0001 C CNN
+F 2 "Mounting_Holes:MountingHole_3.5mm" H 8075 5700 50  0001 C CNN
 F 3 "" H 8075 5700 50  0001 C CNN
 	1    8075 5700
 	1    0    0    -1  
 $EndComp
 $Comp
-L temp_reg-rescue:CONN_01X01 P8
+L CONN_01X01 P8
 U 1 1 5A1C61C7
 P 8075 5900
 F 0 "P8" H 8075 6000 50  0000 C CNN
 F 1 "CONN_01X01" V 8175 5900 50  0000 C CNN
-F 2 "MountingHole:MountingHole_3.5mm" H 8075 5900 50  0001 C CNN
+F 2 "Mounting_Holes:MountingHole_3.5mm" H 8075 5900 50  0001 C CNN
 F 3 "" H 8075 5900 50  0001 C CNN
 	1    8075 5900
 	1    0    0    -1  
 $EndComp
 $Comp
-L temp_reg-rescue:CONN_01X01 P9
+L CONN_01X01 P9
 U 1 1 5A1C6263
 P 8075 6050
 F 0 "P9" H 8075 6150 50  0000 C CNN
 F 1 "CONN_01X01" V 8175 6050 50  0000 C CNN
-F 2 "MountingHole:MountingHole_3.5mm" H 8075 6050 50  0001 C CNN
+F 2 "Mounting_Holes:MountingHole_3.5mm" H 8075 6050 50  0001 C CNN
 F 3 "" H 8075 6050 50  0001 C CNN
 	1    8075 6050
 	1    0    0    -1  
 $EndComp
 $Comp
-L lt2940:lt2940 U4
+L lt2940 U4
 U 1 1 5A91E107
 P 7900 2225
 F 0 "U4" H 8050 2475 60  0000 C CNN
 F 1 "lt2940" H 8050 2575 60  0000 C CNN
-F 2 "Package_DIP:SMDIP-12_W11.48mm" H 7750 2225 60  0001 C CNN
+F 2 "Housings_DIP:DIP-12_W8.89mm_SMDSocket_LongPads" H 7750 2225 60  0001 C CNN
 F 3 "" H 7750 2225 60  0001 C CNN
 	1    7900 2225
 	-1   0    0    1   
 $EndComp
 $Comp
-L temp_reg-rescue:GNDPWR #PWR013
+L GNDPWR #PWR013
 U 1 1 5A91F3BE
 P 8775 1775
 F 0 "#PWR013" H 8775 1575 50  0001 C CNN
@@ -367,7 +418,7 @@ F 3 "" H 8775 1725 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L temp_reg-rescue:GNDPWR #PWR014
+L GNDPWR #PWR014
 U 1 1 5A91F47A
 P 8775 2425
 F 0 "#PWR014" H 8775 2225 50  0001 C CNN
@@ -378,7 +429,7 @@ F 3 "" H 8775 2375 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L temp_reg-rescue:GNDPWR #PWR015
+L GNDPWR #PWR015
 U 1 1 5A91F536
 P 8775 1600
 F 0 "#PWR015" H 8775 1400 50  0001 C CNN
@@ -389,7 +440,7 @@ F 3 "" H 8775 1550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L temp_reg-rescue:GNDPWR #PWR016
+L GNDPWR #PWR016
 U 1 1 5A91FE07
 P 7175 2375
 F 0 "#PWR016" H 7175 2175 50  0001 C CNN
@@ -400,7 +451,7 @@ F 3 "" H 7175 2325 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L temp_reg-rescue:GNDPWR #PWR017
+L GNDPWR #PWR017
 U 1 1 5A93D405
 P 7175 1875
 F 0 "#PWR017" H 7175 1675 50  0001 C CNN
@@ -414,29 +465,40 @@ NoConn ~ 8500 2725
 NoConn ~ 8500 2625
 NoConn ~ 8500 2525
 $Comp
-L temp_reg-rescue:R R11
+L R R11
 U 1 1 5A93F0B3
 P 8525 1600
 F 0 "R11" V 8605 1600 50  0000 C CNN
 F 1 "20k" V 8525 1600 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8455 1600 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8455 1600 50  0001 C CNN
 F 3 "" H 8525 1600 50  0001 C CNN
 	1    8525 1600
 	0    1    1    0   
 $EndComp
 $Comp
-L temp_reg-rescue:POT RV1
+L POT RV1
 U 1 1 59C5DAD5
 P 6250 4150
 F 0 "RV1" V 6075 4150 50  0000 C CNN
 F 1 "POT" V 6150 4150 50  0000 C CNN
-F 2 "Potentiometer_THT:Potentiometer_Bourns_3266Y_Vertical" H 6250 4150 50  0001 C CNN
+F 2 "Potentiometers:Potentiometer_Trimmer_Bourns_PV36W" H 6250 4150 50  0001 C CNN
 F 3 "" H 6250 4150 50  0001 C CNN
 	1    6250 4150
 	1    0    0    -1  
 $EndComp
 $Comp
-L temp_reg-rescue:+12V #PWR018
+L LM7812 U5
+U 1 1 5A9AD7BA
+P 2250 5125
+F 0 "U5" H 2400 4929 50  0000 C CNN
+F 1 "LM7812" H 2250 5325 50  0000 C CNN
+F 2 "TO_SOT_Packages_THT:TO-220-3_Vertical" H 2250 5125 50  0001 C CNN
+F 3 "" H 2250 5125 50  0001 C CNN
+	1    2250 5125
+	1    0    0    -1  
+$EndComp
+$Comp
+L +12V #PWR018
 U 1 1 5A9AFAA4
 P 7900 675
 F 0 "#PWR018" H 7900 525 50  0001 C CNN
@@ -447,7 +509,7 @@ F 3 "" H 7900 675 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L temp_reg-rescue:+12V #PWR019
+L +12V #PWR019
 U 1 1 5A9B54B7
 P 2975 5000
 F 0 "#PWR019" H 2975 4850 50  0001 C CNN
@@ -458,95 +520,106 @@ F 3 "" H 2975 5000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L temp_reg-rescue:POT RV2
+L POT RV2
 U 1 1 5A9B7759
 P 5225 2275
 F 0 "RV2" V 5125 2275 50  0000 C CNN
 F 1 "490k" V 5225 2275 50  0000 C CNN
-F 2 "Potentiometer_THT:Potentiometer_Bourns_3266Y_Vertical" H 5225 2275 50  0001 C CNN
+F 2 "Potentiometers:Potentiometer_Trimmer_Bourns_PV36W" H 5225 2275 50  0001 C CNN
 F 3 "" H 5225 2275 50  0001 C CNN
 	1    5225 2275
 	1    0    0    -1  
 $EndComp
 $Comp
-L temp_reg-rescue:R R8
+L R R8
 U 1 1 5B14687A
 P 1275 2000
 F 0 "R8" V 1355 2000 50  0000 C CNN
 F 1 "R" V 1275 2000 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1205 2000 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1205 2000 50  0001 C CNN
 F 3 "" H 1275 2000 50  0001 C CNN
 	1    1275 2000
 	0    1    1    0   
 $EndComp
 $Comp
-L temp_reg-rescue:PC817 U3
+L PC817 U3
 U 1 1 5B146B9D
 P 1850 2100
 F 0 "U3" H 1650 2300 50  0000 L CNN
 F 1 "PC817" H 1850 2300 50  0000 L CNN
-F 2 "Package_DIP:DIP-4_W7.62mm_LongPads" H 1650 1900 50  0001 L CIN
+F 2 "DIP-4" H 1650 1900 50  0001 L CIN
 F 3 "" H 1850 2100 50  0001 L CNN
 	1    1850 2100
 	1    0    0    -1  
 $EndComp
 $Comp
-L temp_reg-rescue:CONN_2 P3
+L CONN_2 P3
 U 1 1 5B146F38
 P 800 2100
 F 0 "P3" V 750 2100 40  0000 C CNN
 F 1 "CONN_2" V 850 2100 40  0000 C CNN
-F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 800 2100 60  0001 C CNN
+F 2 "borniers:bornier2_V" H 800 2100 60  0001 C CNN
 F 3 "" H 800 2100 60  0001 C CNN
 	1    800  2100
 	-1   0    0    1   
 $EndComp
 $Comp
-L temp_reg-rescue:R R1
+L R R1
 U 1 1 5B1473D7
 P 2375 1725
 F 0 "R1" V 2455 1725 50  0000 C CNN
 F 1 "R" V 2375 1725 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2305 1725 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2305 1725 50  0001 C CNN
 F 3 "" H 2375 1725 50  0001 C CNN
 	1    2375 1725
 	1    0    0    -1  
 $EndComp
 $Comp
-L temp_reg-rescue:CP C4
+L CP C4
 U 1 1 5B147C7C
 P 2875 2200
 F 0 "C4" H 2900 2300 50  0000 L CNN
 F 1 "CP" H 2900 2100 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 2913 2050 50  0001 C CNN
+F 2 "Capacitors_THT:CP_Radial_D7.5mm_P2.50mm" H 2913 2050 50  0001 C CNN
 F 3 "" H 2875 2200 50  0001 C CNN
 	1    2875 2200
 	1    0    0    -1  
 $EndComp
 $Comp
-L temp_reg-rescue:R R9
+L R R9
 U 1 1 5B147D47
 P 2625 2000
 F 0 "R9" V 2705 2000 50  0000 C CNN
 F 1 "R" V 2625 2000 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2555 2000 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2555 2000 50  0001 C CNN
 F 3 "" H 2625 2000 50  0001 C CNN
 	1    2625 2000
 	0    1    1    0   
 $EndComp
 $Comp
-L temp_reg-rescue:MCP602 U2
+L MCP602 U2
 U 2 1 5B148006
 P 3575 1875
 F 0 "U2" H 3575 2075 50  0000 L CNN
 F 1 "MCP602" H 3575 1675 50  0000 L CNN
-F 2 "Package_DIP:DIP-8_W7.62mm_LongPads" H 3575 1875 50  0001 C CNN
+F 2 "Housings_DIP:DIP-8_W7.62mm_Socket_LongPads" H 3575 1875 50  0001 C CNN
 F 3 "" H 3575 1875 50  0001 C CNN
 	2    3575 1875
 	1    0    0    -1  
 $EndComp
 $Comp
-L temp_reg-rescue:+5V #PWR020
+L LM7805 U6
+U 1 1 5B14B693
+P 3600 5125
+F 0 "U6" H 3750 4929 50  0000 C CNN
+F 1 "LM7805" H 3600 5325 50  0000 C CNN
+F 2 "TO_SOT_Packages_THT:TO-220-3_Vertical" H 3600 5125 50  0001 C CNN
+F 3 "" H 3600 5125 50  0001 C CNN
+	1    3600 5125
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR020
 U 1 1 5B14BB86
 P 4025 4975
 F 0 "#PWR020" H 4025 4825 50  0001 C CNN
@@ -557,23 +630,30 @@ F 3 "" H 4025 4975 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L temp_reg-rescue:C_Small 100n5
+L C_Small 100n5
 U 1 1 5B14BD03
 P 3175 5275
 F 0 "100n5" H 3185 5345 50  0000 L CNN
 F 1 "C_Small" H 3185 5195 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm" H 3175 5275 50  0001 C CNN
+F 2 "Capacitors_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 3175 5275 50  0001 C CNN
 F 3 "" H 3175 5275 50  0000 C CNN
 	1    3175 5275
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
+	1850 5075 1850 5175
+Connection ~ 1850 5075
+Wire Wire Line
 	1850 5475 1850 5375
 Wire Wire Line
-	2650 5075 2975 5075
+	2250 5475 2250 5375
+Connection ~ 2250 5475
+Wire Wire Line
+	2650 5075 3200 5075
 Connection ~ 1850 5475
 Wire Wire Line
 	2650 5475 2650 5375
+Connection ~ 2650 5075
 Connection ~ 2650 5475
 Connection ~ 1275 5075
 Connection ~ 1275 5475
@@ -582,7 +662,7 @@ Wire Wire Line
 Wire Wire Line
 	5425 1775 5425 3225
 Wire Wire Line
-	7600 1475 7600 1675
+	7600 1475 7600 1825
 Wire Wire Line
 	7900 1825 7850 1825
 Connection ~ 7900 1825
@@ -611,15 +691,15 @@ Wire Wire Line
 Wire Wire Line
 	4375 1675 4700 1675
 Wire Wire Line
-	5225 3225 5425 3225
+	5225 3225 8100 3225
 Wire Wire Line
-	5000 2075 5000 2100
+	5000 2075 5000 2125
 Wire Wire Line
 	4900 700  4900 1475
 Wire Wire Line
-	9775 5375 9800 5375
+	9775 5375 9850 5375
 Wire Wire Line
-	9775 5575 9800 5575
+	9775 5575 9850 5575
 Wire Wire Line
 	9800 5600 9800 5575
 Connection ~ 9800 5575
@@ -657,9 +737,9 @@ Wire Wire Line
 Wire Wire Line
 	10150 5650 10150 5700
 Wire Wire Line
-	9850 5700 10150 5700
+	9850 5700 10250 5700
 Wire Wire Line
-	9850 5300 10150 5300
+	9850 5300 10250 5300
 Wire Wire Line
 	10150 5300 10150 5350
 Wire Wire Line
@@ -682,15 +762,15 @@ Wire Wire Line
 	6475 3925 6475 4150
 Connection ~ 6475 3925
 Wire Wire Line
-	5975 3925 6250 3925
+	5975 3925 7025 3925
 Wire Wire Line
 	7250 2725 7025 2725
 Wire Wire Line
 	7025 2725 7025 3925
 Wire Wire Line
-	5425 3675 5625 3675
+	5425 3675 7700 3675
 Wire Wire Line
-	5425 3675 5425 3925
+	5425 3675 5425 4000
 Wire Wire Line
 	8100 3225 8100 3125
 Connection ~ 5425 3225
@@ -698,7 +778,7 @@ Wire Wire Line
 	7700 3675 7700 3125
 Connection ~ 5625 3675
 Wire Wire Line
-	7900 675  7900 1675
+	7900 675  7900 1875
 Wire Wire Line
 	5375 2525 5375 2275
 Wire Wire Line
@@ -713,7 +793,7 @@ Wire Wire Line
 Wire Wire Line
 	1150 2200 1550 2200
 Wire Wire Line
-	2150 2000 2375 2000
+	2150 2000 2475 2000
 Wire Wire Line
 	2375 2000 2375 1875
 Wire Wire Line
@@ -724,7 +804,7 @@ Connection ~ 2375 2000
 Wire Wire Line
 	2775 2000 2875 2000
 Wire Wire Line
-	2875 1775 2875 2000
+	2875 1775 2875 2050
 Wire Wire Line
 	3475 2525 3475 2175
 Wire Wire Line
@@ -742,9 +822,11 @@ Connection ~ 4000 1875
 Wire Wire Line
 	2975 5075 2975 5000
 Connection ~ 2975 5075
+Wire Wire Line
+	3600 5475 3600 5375
 Connection ~ 2900 5475
 Wire Wire Line
-	4025 4975 4025 5075
+	4025 4975 4025 5150
 Wire Wire Line
 	3175 5175 3175 5075
 Connection ~ 3175 5075
@@ -752,12 +834,12 @@ Wire Wire Line
 	3175 5475 3175 5375
 Connection ~ 3175 5475
 $Comp
-L temp_reg-rescue:C_Small 100n4
+L C_Small 100n4
 U 1 1 5B14C32C
 P 4025 5250
 F 0 "100n4" H 4035 5320 50  0000 L CNN
 F 1 "C_Small" H 4035 5170 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm" H 4025 5250 50  0001 C CNN
+F 2 "Capacitors_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 4025 5250 50  0001 C CNN
 F 3 "" H 4025 5250 50  0000 C CNN
 	1    4025 5250
 	1    0    0    -1  
@@ -765,30 +847,31 @@ $EndComp
 Connection ~ 4025 5075
 Wire Wire Line
 	4025 5475 4025 5350
+Connection ~ 3600 5475
 $Comp
-L temp_reg-rescue:TL431 D1
+L TL431 D1
 U 1 1 5B14F796
 P 4825 5250
 F 0 "D1" H 4825 5400 40  0000 C CNN
 F 1 "TL431" H 4825 5340 40  0000 C CNN
-F 2 "Package_TO_SOT_THT:TO-92L_Inline_Wide" H 4825 5250 60  0001 C CNN
+F 2 "TO_SOT_Packages_THT:TO-92_Inline_Wide" H 4825 5250 60  0001 C CNN
 F 3 "" H 4825 5250 60  0000 C CNN
 	1    4825 5250
 	0    -1   -1   0   
 $EndComp
 $Comp
-L temp_reg-rescue:R 20k2
+L R 20k2
 U 1 1 5B14F79C
 P 4600 5075
 F 0 "20k2" V 4680 5075 50  0000 C CNN
 F 1 "R" V 4600 5075 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4530 5075 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4530 5075 50  0001 C CNN
 F 3 "" H 4600 5075 50  0001 C CNN
 	1    4600 5075
 	0    1    1    0   
 $EndComp
 $Comp
-L temp_reg-rescue:CP1_Small 10u1
+L CP1_Small 10u1
 U 1 1 5B14F7A2
 P 4300 5250
 F 0 "10u1" H 4310 5320 50  0000 L CNN
@@ -801,28 +884,31 @@ $EndComp
 Wire Wire Line
 	4825 5075 4825 5150
 Connection ~ 4825 5075
+Connection ~ 4300 5075
 Connection ~ 4825 5475
 $Comp
-L temp_reg-rescue:POT 20k3
+L POT 20k3
 U 1 1 5B14F7B9
 P 5150 5250
 F 0 "20k3" V 5150 5250 50  0000 C CNN
 F 1 "POT" V 5050 5250 50  0000 C CNN
-F 2 "Potentiometer_THT:Potentiometer_Bourns_3266Y_Vertical" H 5150 5250 50  0001 C CNN
+F 2 "Potentiometers:Potentiometer_Trimmer_Bourns_PV36W" H 5150 5250 50  0001 C CNN
 F 3 "" H 5150 5250 50  0001 C CNN
 	1    5150 5250
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	4825 5475 4825 5350
+Wire Wire Line
+	4000 5075 4450 5075
 Connection ~ 4300 5475
 Wire Wire Line
-	2375 2525 2875 2525
+	2375 2525 5375 2525
 Wire Wire Line
-	2875 2350 2875 2525
+	2875 2350 2875 2550
 Connection ~ 2875 2525
 $Comp
-L temp_reg-rescue:GNDPWR #PWR021
+L GNDPWR #PWR021
 U 1 1 5B151CED
 P 2875 2550
 F 0 "#PWR021" H 2875 2350 50  0001 C CNN
@@ -833,7 +919,7 @@ F 3 "" H 2875 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L temp_reg-rescue:+5V #PWR022
+L +5V #PWR022
 U 1 1 5B151FD3
 P 3475 725
 F 0 "#PWR022" H 3475 575 50  0001 C CNN
@@ -844,9 +930,9 @@ F 3 "" H 3475 725 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3475 725  3475 1075
+	3475 725  3475 1575
 $Comp
-L temp_reg-rescue:+48V #PWR023
+L +48V #PWR023
 U 1 1 5B15837D
 P 875 5000
 F 0 "#PWR023" H 875 4850 50  0001 C CNN
@@ -859,22 +945,22 @@ $EndComp
 Wire Wire Line
 	875  5000 875  5075
 Wire Wire Line
-	875  5075 1275 5075
+	875  5075 1850 5075
 Wire Wire Line
 	2375 1400 2375 1575
 $Comp
-L temp_reg-rescue:MCP602 U2
+L MCP602 U2
 U 1 1 5B1706C0
 P 1875 1400
 F 0 "U2" H 1875 1600 50  0000 L CNN
 F 1 "MCP602" H 1875 1200 50  0000 L CNN
-F 2 "Package_DIP:DIP-8_W7.62mm_LongPads" H 1875 1400 50  0001 C CNN
+F 2 "Housings_DIP:DIP-8_W7.62mm_Socket_LongPads" H 1875 1400 50  0001 C CNN
 F 3 "" H 1875 1400 50  0001 C CNN
 	1    1875 1400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2175 1400 2225 1400
+	2175 1400 2375 1400
 Wire Wire Line
 	1575 1500 1500 1500
 Wire Wire Line
@@ -885,7 +971,7 @@ Wire Wire Line
 	2225 1650 2225 1400
 Connection ~ 2225 1400
 $Comp
-L temp_reg-rescue:GNDPWR #PWR024
+L GNDPWR #PWR024
 U 1 1 5B1711B0
 P 1775 1725
 F 0 "#PWR024" H 1775 1525 50  0001 C CNN
@@ -904,15 +990,15 @@ Wire Wire Line
 Wire Wire Line
 	5150 5475 5150 5400
 Wire Wire Line
-	5150 4975 5150 5075
+	5150 4975 5150 5100
 Connection ~ 5150 5075
 $Comp
-L temp_reg-rescue:POT 20k1
+L POT 20k1
 U 1 1 5B1727BF
 P 1275 1300
 F 0 "20k1" V 1275 1300 50  0000 C CNN
 F 1 "POT" V 1175 1300 50  0000 C CNN
-F 2 "Potentiometer_THT:Potentiometer_Bourns_3266Y_Vertical" H 1275 1300 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 1275 1300 50  0001 C CNN
 F 3 "" H 1275 1300 50  0001 C CNN
 	1    1275 1300
 	1    0    0    -1  
@@ -923,13 +1009,13 @@ Wire Wire Line
 	4300 5150 4300 5075
 Connection ~ 4025 5475
 Wire Wire Line
-	875  5475 1275 5475
+	875  5475 5150 5475
 Wire Wire Line
 	4300 5350 4300 5475
 Wire Wire Line
-	4750 5075 4825 5075
+	4750 5075 5150 5075
 $Comp
-L temp_reg-rescue:Vref #PWR025
+L Vref #PWR025
 U 1 1 5B174214
 P 5150 4975
 F 0 "#PWR025" H 5150 4825 50  0001 C CNN
@@ -942,7 +1028,7 @@ $EndComp
 Wire Wire Line
 	1275 1450 1275 1525
 $Comp
-L temp_reg-rescue:GNDPWR #PWR026
+L GNDPWR #PWR026
 U 1 1 5B174C35
 P 1275 1525
 F 0 "#PWR026" H 1275 1325 50  0001 C CNN
@@ -953,7 +1039,7 @@ F 3 "" H 1275 1475 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L temp_reg-rescue:Vref #PWR027
+L Vref #PWR027
 U 1 1 5B174E50
 P 1275 725
 F 0 "#PWR027" H 1275 575 50  0001 C CNN
@@ -973,20 +1059,20 @@ Connection ~ 8250 1600
 Wire Wire Line
 	8675 1600 8775 1600
 Wire Wire Line
-	8250 1250 8250 1600
+	8250 1250 8250 1875
 $Comp
-L temp_reg-rescue:CONN_01X04 P2
+L CONN_01X04 P2
 U 1 1 5B179CCF
 P 5975 725
 F 0 "P2" H 5975 975 50  0000 C CNN
 F 1 "CONN_01X04" V 6075 725 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 5975 725 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 5975 725 50  0001 C CNN
 F 3 "" H 5975 725 50  0001 C CNN
 	1    5975 725 
 	0    -1   -1   0   
 $EndComp
 $Comp
-L temp_reg-rescue:GNDPWR #PWR028
+L GNDPWR #PWR028
 U 1 1 5B179FB9
 P 6125 1000
 F 0 "#PWR028" H 6125 800 50  0001 C CNN
@@ -999,12 +1085,12 @@ $EndComp
 Wire Wire Line
 	6125 1000 6125 925 
 $Comp
-L temp_reg-rescue:R R2
+L R R2
 U 1 1 5B17A7C5
 P 8525 1775
 F 0 "R2" V 8605 1775 50  0000 C CNN
 F 1 "20k" V 8525 1775 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8455 1775 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8455 1775 50  0001 C CNN
 F 3 "" H 8525 1775 50  0001 C CNN
 	1    8525 1775
 	0    1    1    0   
@@ -1032,18 +1118,18 @@ Wire Wire Line
 Wire Wire Line
 	6025 925  6025 1000
 $Comp
-L temp_reg-rescue:CONN_01X02 P1
+L CONN_01X02 P1
 U 1 1 5B17CB57
 P 5475 725
 F 0 "P1" H 5475 875 50  0000 C CNN
 F 1 "CONN_01X02" V 5575 725 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5475 725 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 5475 725 50  0001 C CNN
 F 3 "" H 5475 725 50  0001 C CNN
 	1    5475 725 
 	0    -1   -1   0   
 $EndComp
 $Comp
-L temp_reg-rescue:GNDPWR #PWR029
+L GNDPWR #PWR029
 U 1 1 5B17CC72
 P 5525 1000
 F 0 "#PWR029" H 5525 800 50  0001 C CNN
@@ -1062,31 +1148,31 @@ Wire Wire Line
 Wire Wire Line
 	5000 1400 5000 1475
 $Comp
-L temp_reg-rescue:R R4
+L R R4
 U 1 1 5B1BCEFF
 P 4275 1875
 F 0 "R4" V 4355 1875 50  0000 C CNN
 F 1 "R" V 4275 1875 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4205 1875 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4205 1875 50  0001 C CNN
 F 3 "" H 4275 1875 50  0001 C CNN
 	1    4275 1875
 	0    1    1    0   
 $EndComp
 $Comp
-L temp_reg-rescue:CP C3
+L CP C3
 U 1 1 5B1BD004
 P 4550 2175
 F 0 "C3" H 4575 2275 50  0000 L CNN
 F 1 "CP" H 4575 2075 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 4588 2025 50  0001 C CNN
+F 2 "Capacitors_THT:CP_Radial_D7.5mm_P2.50mm" H 4588 2025 50  0001 C CNN
 F 3 "" H 4550 2175 50  0001 C CNN
 	1    4550 2175
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3875 1875 4000 1875
+	3875 1875 4125 1875
 Wire Wire Line
-	4425 1875 4550 1875
+	4425 1875 4700 1875
 Wire Wire Line
 	4550 2025 4550 1875
 Connection ~ 4550 1875
@@ -1106,133 +1192,4 @@ Connection ~ 5225 2525
 Wire Wire Line
 	1775 1075 3475 1075
 Connection ~ 3475 1075
-Wire Wire Line
-	2650 5475 2900 5475
-Wire Wire Line
-	1275 5075 1850 5075
-Wire Wire Line
-	1275 5475 1850 5475
-Wire Wire Line
-	7900 1825 7900 1875
-Wire Wire Line
-	7600 1675 7600 1825
-Wire Wire Line
-	7900 1675 7900 1825
-Wire Wire Line
-	6250 3925 6475 3925
-Wire Wire Line
-	5425 3925 5425 4000
-Wire Wire Line
-	9800 5575 9850 5575
-Wire Wire Line
-	9800 5375 9850 5375
-Wire Wire Line
-	10150 5300 10250 5300
-Wire Wire Line
-	10150 5700 10250 5700
-Wire Wire Line
-	6475 3925 7025 3925
-Wire Wire Line
-	5425 3225 8100 3225
-Wire Wire Line
-	5625 3675 7700 3675
-Wire Wire Line
-	5000 2100 5000 2125
-Wire Wire Line
-	2375 2000 2475 2000
-Wire Wire Line
-	2875 2000 2875 2050
-Wire Wire Line
-	4000 1875 4125 1875
-Wire Wire Line
-	2975 5075 3175 5075
-Wire Wire Line
-	2900 5475 3175 5475
-Wire Wire Line
-	3175 5075 3300 5075
-Wire Wire Line
-	4025 5075 4025 5150
-Wire Wire Line
-	4825 5075 5150 5075
-Wire Wire Line
-	4300 5075 4450 5075
-Wire Wire Line
-	4825 5475 5150 5475
-Wire Wire Line
-	4300 5475 4825 5475
-Wire Wire Line
-	2875 2525 3475 2525
-Wire Wire Line
-	2875 2525 2875 2550
-Wire Wire Line
-	2225 1400 2375 1400
-Wire Wire Line
-	5150 5075 5150 5100
-Wire Wire Line
-	4025 5475 4300 5475
-Wire Wire Line
-	8250 1600 8250 1875
-Wire Wire Line
-	4550 1875 4700 1875
-Wire Wire Line
-	3475 2525 4550 2525
-Wire Wire Line
-	4550 2525 4900 2525
-Wire Wire Line
-	4900 2525 5000 2525
-Wire Wire Line
-	5000 2525 5225 2525
-Wire Wire Line
-	5225 2525 5375 2525
-Wire Wire Line
-	3475 1075 3475 1575
-$Comp
-L Regulator_Linear:LM7812_TO220 U5
-U 1 1 5B251508
-P 2250 5075
-F 0 "U5" H 2250 5317 50  0000 C CNN
-F 1 "LM7812_TO220" H 2250 5226 50  0000 C CNN
-F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 2250 5300 50  0001 C CIN
-F 3 "http://www.fairchildsemi.com/ds/LM/LM7805.pdf" H 2250 5025 50  0001 C CNN
-	1    2250 5075
-	1    0    0    -1  
-$EndComp
-$Comp
-L Regulator_Linear:LM7805_TO220 U6
-U 1 1 5B251A33
-P 3600 5075
-F 0 "U6" H 3600 5317 50  0000 C CNN
-F 1 "LM7805_TO220" H 3600 5226 50  0000 C CNN
-F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 3600 5300 50  0001 C CIN
-F 3 "http://www.fairchildsemi.com/ds/LM/LM7805.pdf" H 3600 5025 50  0001 C CNN
-	1    3600 5075
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3600 5475 4025 5475
-Wire Wire Line
-	3175 5475 3600 5475
-Connection ~ 3600 5475
-Wire Wire Line
-	3600 5475 3600 5375
-Wire Wire Line
-	1850 5075 1850 5175
-Wire Wire Line
-	3900 5075 4025 5075
-Wire Wire Line
-	4025 5075 4300 5075
-Connection ~ 4300 5075
-Wire Wire Line
-	1850 5475 2250 5475
-Wire Wire Line
-	2250 5375 2250 5475
-Connection ~ 2250 5475
-Wire Wire Line
-	2250 5475 2650 5475
-Wire Wire Line
-	1850 5075 1950 5075
-Connection ~ 1850 5075
-Wire Wire Line
-	2550 5075 2650 5075
-Connection ~ 2650 5075
 $EndSCHEMATC

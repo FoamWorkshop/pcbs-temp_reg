@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 update=Wed 13 Jun 2018 10:50:17 PM CEST
+=======
+update=Wed 13 Jun 2018 10:53:01 PM CEST
+>>>>>>> 7c130c643551a205d34d481a397d201083145843
 version=1
 last_client=kicad
 [cvpcb]
@@ -25,6 +29,12 @@ SolderMaskMinWidth=0
 DrawSegmentWidth=0.2
 BoardOutlineThickness=0.15
 ModuleOutlineThickness=0.15
+<<<<<<< HEAD
+=======
+[eeschema]
+version=1
+LibDir=../99.kicad_libs;../temp_reg;../temp_reg;../temp_reg
+>>>>>>> 7c130c643551a205d34d481a397d201083145843
 [schematic_editor]
 version=1
 PageLayoutDescrFile=

@@ -1,6 +1,4 @@
 (sym_lib_table
   (lib (name temp_reg-rescue)(type Legacy)(uri ${KIPRJMOD}/temp_reg-rescue.lib)(options "")(descr ""))
   (lib (name opa547)(type Legacy)(uri ${KIPRJMOD}/opa547.lib)(options "")(descr ""))
-  (lib (name lt1170_71_72)(type Legacy)(uri ${KIPRJMOD}/lt1170_71_72.lib)(options "")(descr ""))
-  (lib (name lt2940)(type Legacy)(uri ${KIPRJMOD}/lt2940.lib)(options "")(descr ""))
 )
